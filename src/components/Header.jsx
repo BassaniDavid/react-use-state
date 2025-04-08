@@ -1,5 +1,7 @@
 export default function Header() {
     return (
-        <header><h1>Learn Web development</h1></header>
+        <header className="bg-secondary-subtle">
+            <h1 className="p-4">Learn Web development</h1>
+        </header>
     )
 }
