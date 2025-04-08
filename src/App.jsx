@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/header'
 import Main from './components/Main'
+import languages from './languages'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Main></Main>
+      <Main data={languages}></Main>
     </>
   )
 }
